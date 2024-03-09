@@ -1,0 +1,1 @@
+cmd = ../Nafria_et_al_ATACseq_Distal_Gained.bed hg38 Distal_Gained_mask_3 -noknown -p 2 -mask -size 200

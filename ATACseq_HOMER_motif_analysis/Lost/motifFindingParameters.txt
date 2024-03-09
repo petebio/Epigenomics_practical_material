@@ -1,0 +1,1 @@
+cmd = ../Nafria_et_al_ATACseq_Distal_Lost.bed hg38 Distal_Lost -size 200 -noknown -p 2
