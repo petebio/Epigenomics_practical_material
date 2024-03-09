@@ -1,0 +1,77 @@
+MOTIF_INDEX	MOTIF_SOURCE	MOTIF_ID	ALT_ID	CONSENSUS	WIDTH	SITES	E-VALUE	E-VALUE_SOURCE	MOST_SIMILAR_MOTIF_SOURCE	MOST_SIMILAR_MOTIF	URL
+1	MEME	NRAAAGAGGAAGTGR	MEME-1	NRAAAGAGGAAGTGR	15	1051	1.1e-225	MEME	db/motif_databases/JASPAR/JASPAR2022_CORE_non-redundant_v2.meme	MA0080.6 (Spi1)	http://jaspar2022.genereg.net/matrix/MA0080.6
+2	MEME	WAACCACA	MEME-2	WAACCACA	8	697	4.2e-158	MEME	db/motif_databases/JASPAR/JASPAR2022_CORE_non-redundant_v2.meme	MA0002.2 (Runx1)	http://jaspar2022.genereg.net/matrix/MA0002.2
+3	db/motif_databases/JASPAR/JASPAR2022_CORE_non-redundant_v2.meme	MA0511.2	RUNX2	WAACCGCAA	9	1919	3.2e-067	CENTRIMO	 	 	http://jaspar2022.genereg.net/matrix/MA0511.2
+4	STREME	1-AAACCACAGM	STREME-1	AAACCACAGM	10	959	1.6e-049	STREME	db/motif_databases/JASPAR/JASPAR2022_CORE_non-redundant_v2.meme	MA0002.2 (Runx1)	http://jaspar2022.genereg.net/matrix/MA0002.2
+5	STREME	10-ACCRCAR	STREME-10	10-ACCRCAR	7	382	1.2e-048	STREME	db/motif_databases/JASPAR/JASPAR2022_CORE_non-redundant_v2.meme	MA0242.1 (Bgb::run)	http://jaspar2022.genereg.net/matrix/MA0242.1
+6	MEME	GGGGGCGGGGC	MEME-3	GGGGGCGGGGC	11	272	2.6e-043	MEME	db/motif_databases/JASPAR/JASPAR2022_CORE_non-redundant_v2.meme	MA1513.1 (KLF15)	http://jaspar2022.genereg.net/matrix/MA1513.1
+7	db/motif_databases/JASPAR/JASPAR2022_CORE_non-redundant_v2.meme	MA0242.1	Bgb::run	WAACCGCAA	9	1236	5.1e-041	CENTRIMO	 	 	http://jaspar2022.genereg.net/matrix/MA0242.1
+8	db/motif_databases/JASPAR/JASPAR2022_CORE_non-redundant_v2.meme	MA0684.2	RUNX3	NHAACCTCAANN	12	2012	3.3e-038	CENTRIMO	 	 	http://jaspar2022.genereg.net/matrix/MA0684.2
+9	db/motif_databases/JASPAR/JASPAR2022_CORE_non-redundant_v2.meme	MA0002.2	Runx1	BBYTGTGGTTT	11	2378	3.9e-033	CENTRIMO	 	 	http://jaspar2022.genereg.net/matrix/MA0002.2
+10	db/motif_databases/JASPAR/JASPAR2022_CORE_non-redundant_v2.meme	MA1989.1	Bcl11B	NNAAACCACAARNN	14	2107	1.8e-025	CENTRIMO	 	 	http://jaspar2022.genereg.net/matrix/MA1989.1
+11	db/motif_databases/JASPAR/JASPAR2022_CORE_non-redundant_v2.meme	MA0334.1	MET32	MGCCACA	7	2525	5.8e-020	CENTRIMO	 	 	http://jaspar2022.genereg.net/matrix/MA0334.1
+12	db/motif_databases/JASPAR/JASPAR2022_CORE_non-redundant_v2.meme	MA1804.1	WIN1	VCRCCGCMRY	10	2340	4.6e-019	CENTRIMO	 	 	http://jaspar2022.genereg.net/matrix/MA1804.1
+13	db/motif_databases/JASPAR/JASPAR2022_CORE_non-redundant_v2.meme	MA0034.1	Gam1	SVYAACCGMC	10	1896	1.4e-018	CENTRIMO	 	 	http://jaspar2022.genereg.net/matrix/MA0034.1
+14	db/motif_databases/JASPAR/JASPAR2022_CORE_non-redundant_v2.meme	MA0695.1	ZBTB7C	RCGACCACCGAN	12	2023	1.4e-013	CENTRIMO	 	 	http://jaspar2022.genereg.net/matrix/MA0695.1
+15	db/motif_databases/JASPAR/JASPAR2022_CORE_non-redundant_v2.meme	MA1261.1	ERF122	HDDHTRCGGCKGHGG	15	1392	1.9e-012	CENTRIMO	 	 	http://jaspar2022.genereg.net/matrix/MA1261.1
+16	db/motif_databases/JASPAR/JASPAR2022_CORE_non-redundant_v2.meme	MA1177.1	MYB65	WHYVTAACCGHMW	13	1341	4.7e-012	CENTRIMO	 	 	http://jaspar2022.genereg.net/matrix/MA1177.1
+17	db/motif_databases/JASPAR/JASPAR2022_CORE_non-redundant_v2.meme	MA0098.3	ETS1	ACCGGAARTR	10	1658	7.3e-010	CENTRIMO	 	 	http://jaspar2022.genereg.net/matrix/MA0098.3
+18	db/motif_databases/JASPAR/JASPAR2022_CORE_non-redundant_v2.meme	MA0332.1	MET28	CTGTGG	6	1113	1.0e-009	CENTRIMO	 	 	http://jaspar2022.genereg.net/matrix/MA0332.1
+19	db/motif_databases/JASPAR/JASPAR2022_CORE_non-redundant_v2.meme	MA0474.3	Erg	NNACAGGAAGTGVN	14	2142	2.7e-009	CENTRIMO	 	 	http://jaspar2022.genereg.net/matrix/MA0474.3
+20	db/motif_databases/JASPAR/JASPAR2022_CORE_non-redundant_v2.meme	MA0764.3	ETV4	ACCGGAAGTR	10	1720	3.3e-009	CENTRIMO	 	 	http://jaspar2022.genereg.net/matrix/MA0764.3
+21	db/motif_databases/JASPAR/JASPAR2022_CORE_non-redundant_v2.meme	MA0076.2	ELK4	BCRCTTCCGGB	11	1569	4.9e-009	CENTRIMO	 	 	http://jaspar2022.genereg.net/matrix/MA0076.2
+22	db/motif_databases/JASPAR/JASPAR2022_CORE_non-redundant_v2.meme	MA1484.1	ETS2	DACCGGAAGY	10	1264	7.2e-009	CENTRIMO	 	 	http://jaspar2022.genereg.net/matrix/MA1484.1
+23	STREME	4-CAGGAAGY	STREME-4	CAGGAAGY	8	476	1.9e-008	STREME	db/motif_databases/JASPAR/JASPAR2022_CORE_non-redundant_v2.meme	MA1508.1 (IKZF1)	http://jaspar2022.genereg.net/matrix/MA1508.1
+24	db/motif_databases/JASPAR/JASPAR2022_CORE_non-redundant_v2.meme	MA0475.2	FLI1	ACCGGAARTR	10	1310	2.9e-008	CENTRIMO	 	 	http://jaspar2022.genereg.net/matrix/MA0475.2
+25	db/motif_databases/JASPAR/JASPAR2022_CORE_non-redundant_v2.meme	MA0130.1	ZNF354C	MTCCAC	6	2452	3.0e-008	CENTRIMO	 	 	http://jaspar2022.genereg.net/matrix/MA0130.1
+26	db/motif_databases/JASPAR/JASPAR2022_CORE_non-redundant_v2.meme	MA0760.1	ERF	ACCGGAAGTR	10	1489	4.0e-008	CENTRIMO	 	 	http://jaspar2022.genereg.net/matrix/MA0760.1
+27	db/motif_databases/JASPAR/JASPAR2022_CORE_non-redundant_v2.meme	MA1483.2	ELF2	AAMCCGGAAGTR	12	1507	7.1e-008	CENTRIMO	 	 	http://jaspar2022.genereg.net/matrix/MA1483.2
+28	STREME	2-AAAGAGGAAGTG	STREME-2	AAAGAGGAAGTG	12	559	1.1e-007	STREME	db/motif_databases/JASPAR/JASPAR2022_CORE_non-redundant_v2.meme	MA0081.2 (SPIB)	http://jaspar2022.genereg.net/matrix/MA0081.2
+29	db/motif_databases/JASPAR/JASPAR2022_CORE_non-redundant_v2.meme	MA1992.1	Ikzf3	NNRCAGGAAGTGGVN	15	2292	1.1e-007	CENTRIMO	 	 	http://jaspar2022.genereg.net/matrix/MA1992.1
+30	db/motif_databases/JASPAR/JASPAR2022_CORE_non-redundant_v2.meme	MA0761.2	ETV1	NNACAGGAAGTGNN	14	2155	1.1e-007	CENTRIMO	 	 	http://jaspar2022.genereg.net/matrix/MA0761.2
+31	db/motif_databases/JASPAR/JASPAR2022_CORE_non-redundant_v2.meme	MA1434.1	NCU02182	WACCCAB	7	1337	1.8e-007	CENTRIMO	 	 	http://jaspar2022.genereg.net/matrix/MA1434.1
+32	db/motif_databases/JASPAR/JASPAR2022_CORE_non-redundant_v2.meme	MA1856.1	Fli-Erg-b	NNNNNBRYTTCCGGTNNNNNNN	22	1939	2.6e-007	CENTRIMO	 	 	http://jaspar2022.genereg.net/matrix/MA1856.1
+33	db/motif_databases/MOUSE/uniprobe_mouse.meme	UP00013_1	Gabpa_primary	MNWWACCGGAAGTDNNN	17	1219	3.4e-007	CENTRIMO	 	 	http://thebrain.bwh.harvard.edu/uniprobe/details2.php?id=00013
+34	db/motif_databases/JASPAR/JASPAR2022_CORE_non-redundant_v2.meme	MA0645.1	ETV6	MSCGGAAGTR	10	1871	5.8e-007	CENTRIMO	 	 	http://jaspar2022.genereg.net/matrix/MA0645.1
+35	db/motif_databases/JASPAR/JASPAR2022_CORE_non-redundant_v2.meme	MA0062.3	GABPA	NNCACTTCCTGTNN	14	2243	9.9e-007	CENTRIMO	 	 	http://jaspar2022.genereg.net/matrix/MA0062.3
+36	STREME	12-AGGAAGTG	STREME-12	12-AGGAAGTG	8	115	1.5e-006	STREME	db/motif_databases/JASPAR/JASPAR2022_CORE_non-redundant_v2.meme	MA0473.3 (ELF1)	http://jaspar2022.genereg.net/matrix/MA0473.3
+37	db/motif_databases/JASPAR/JASPAR2022_CORE_non-redundant_v2.meme	MA0483.1	Gfi1B	AAATCWCWGCH	11	1054	1.8e-006	CENTRIMO	 	 	http://jaspar2022.genereg.net/matrix/MA0483.1
+38	db/motif_databases/JASPAR/JASPAR2022_CORE_non-redundant_v2.meme	MA0156.3	FEV	VACCGGAAGTVV	12	906	2.5e-006	CENTRIMO	 	 	http://jaspar2022.genereg.net/matrix/MA0156.3
+39	db/motif_databases/JASPAR/JASPAR2022_CORE_non-redundant_v2.meme	MA1942.1	ETV2::FOXI1	BGTAAACAGGAAGYR	15	1683	5.6e-006	CENTRIMO	 	 	http://jaspar2022.genereg.net/matrix/MA1942.1
+40	db/motif_databases/JASPAR/JASPAR2022_CORE_non-redundant_v2.meme	MA1935.1	ERF::FOXI1	RTAAACMGGAARTR	14	2114	7.5e-006	CENTRIMO	 	 	http://jaspar2022.genereg.net/matrix/MA1935.1
+41	db/motif_databases/JASPAR/JASPAR2022_CORE_non-redundant_v2.meme	MA0473.3	ELF1	RDVCAGGAAGTGVN	14	2109	1.5e-005	CENTRIMO	 	 	http://jaspar2022.genereg.net/matrix/MA0473.3
+42	db/motif_databases/JASPAR/JASPAR2022_CORE_non-redundant_v2.meme	MA1954.1	FOXO1::ELK1	RWMAACAGGAAGTD	14	1333	2.0e-005	CENTRIMO	 	 	http://jaspar2022.genereg.net/matrix/MA1954.1
+43	db/motif_databases/JASPAR/JASPAR2022_CORE_non-redundant_v2.meme	MA1950.1	FLI1::FOXI1	RTAAACAGGAARYN	14	1580	2.3e-005	CENTRIMO	 	 	http://jaspar2022.genereg.net/matrix/MA1950.1
+44	db/motif_databases/JASPAR/JASPAR2022_CORE_non-redundant_v2.meme	MA0765.3	ETV5	ACCGGAAGTR	10	777	3.1e-005	CENTRIMO	 	 	http://jaspar2022.genereg.net/matrix/MA0765.3
+45	db/motif_databases/JASPAR/JASPAR2022_CORE_non-redundant_v2.meme	MA0026.1	Eip74EF	CCGGAAR	7	1983	3.8e-005	CENTRIMO	 	 	http://jaspar2022.genereg.net/matrix/MA0026.1
+46	db/motif_databases/JASPAR/JASPAR2022_CORE_non-redundant_v2.meme	MA0598.3	EHF	NNCACTTCCTGTTNN	15	2122	4.9e-005	CENTRIMO	 	 	http://jaspar2022.genereg.net/matrix/MA0598.3
+47	db/motif_databases/JASPAR/JASPAR2022_CORE_non-redundant_v2.meme	MA0750.2	ZBTB7A	NVCCGGAAGTGSV	13	2100	1.7e-004	CENTRIMO	 	 	http://jaspar2022.genereg.net/matrix/MA0750.2
+48	STREME	3-CCCCGCCCCC	STREME-3	CCCCGCCCCC	10	238	1.8e-004	STREME	db/motif_databases/JASPAR/JASPAR2022_CORE_non-redundant_v2.meme	MA0742.2 (KLF12)	http://jaspar2022.genereg.net/matrix/MA0742.2
+49	db/motif_databases/JASPAR/JASPAR2022_CORE_non-redundant_v2.meme	MA0762.1	ETV2	AACCGGAAATR	11	1003	1.9e-004	CENTRIMO	 	 	http://jaspar2022.genereg.net/matrix/MA0762.1
+50	db/motif_databases/JASPAR/JASPAR2022_CORE_non-redundant_v2.meme	MA0641.1	ELF4	AACCCGGAAGTR	12	891	2.4e-004	CENTRIMO	 	 	http://jaspar2022.genereg.net/matrix/MA0641.1
+51	db/motif_databases/JASPAR/JASPAR2022_CORE_non-redundant_v2.meme	MA0028.2	ELK1	ACCGGAAGTR	10	830	4.6e-004	CENTRIMO	 	 	http://jaspar2022.genereg.net/matrix/MA0028.2
+52	db/motif_databases/JASPAR/JASPAR2022_CORE_non-redundant_v2.meme	MA1957.1	HOXB2::ELK1	RCCGGAAGTMRTTA	14	621	8.4e-004	CENTRIMO	 	 	http://jaspar2022.genereg.net/matrix/MA1957.1
+53	db/motif_databases/JASPAR/JASPAR2022_CORE_non-redundant_v2.meme	MA1367.1	AT1G76870	AWHHWAAACCRSWW	14	1206	8.5e-004	CENTRIMO	 	 	http://jaspar2022.genereg.net/matrix/MA1367.1
+54	db/motif_databases/JASPAR/JASPAR2022_CORE_non-redundant_v2.meme	MA1946.1	ETV5::FOXI1	GTAAACAGGAWGY	13	1270	9.6e-004	CENTRIMO	 	 	http://jaspar2022.genereg.net/matrix/MA1946.1
+55	db/motif_databases/JASPAR/JASPAR2022_CORE_non-redundant_v2.meme	MA1853.1	Erf-a	NNNNRNCGGAAGTNNNNNNN	20	2314	1.1e-003	CENTRIMO	 	 	http://jaspar2022.genereg.net/matrix/MA1853.1
+56	db/motif_databases/JASPAR/JASPAR2022_CORE_non-redundant_v2.meme	MA1708.1	ETV7	DGSCGGAAGTR	11	2113	2.8e-003	CENTRIMO	 	 	http://jaspar2022.genereg.net/matrix/MA1708.1
+57	db/motif_databases/JASPAR/JASPAR2022_CORE_non-redundant_v2.meme	MA0837.2	CEBPE	KATTGCGCAATM	12	202	2.9e-003	CENTRIMO	 	 	http://jaspar2022.genereg.net/matrix/MA0837.2
+58	db/motif_databases/JASPAR/JASPAR2022_CORE_non-redundant_v2.meme	MA0759.2	ELK3	ACCGGAAGTRV	11	611	4.2e-003	CENTRIMO	 	 	http://jaspar2022.genereg.net/matrix/MA0759.2
+59	db/motif_databases/JASPAR/JASPAR2022_CORE_non-redundant_v2.meme	MA0640.2	ELF3	NNCCACTTCCTGNT	14	2196	6.0e-003	CENTRIMO	 	 	http://jaspar2022.genereg.net/matrix/MA0640.2
+60	db/motif_databases/JASPAR/JASPAR2022_CORE_non-redundant_v2.meme	MA1931.1	ELK1::HOXA1	ACCGGAAGTAATTA	14	492	6.1e-003	CENTRIMO	 	 	http://jaspar2022.genereg.net/matrix/MA1931.1
+61	db/motif_databases/JASPAR/JASPAR2022_CORE_non-redundant_v2.meme	MA0081.2	SPIB	TYTCACTTCCTCTTTY	16	1903	6.9e-003	CENTRIMO	 	 	http://jaspar2022.genereg.net/matrix/MA0081.2
+62	db/motif_databases/JASPAR/JASPAR2022_CORE_non-redundant_v2.meme	MA1855.1	Fli-Erg-a	NNNNNNDCCGGAARYNVNNN	20	1837	8.7e-003	CENTRIMO	 	 	http://jaspar2022.genereg.net/matrix/MA1855.1
+63	db/motif_databases/JASPAR/JASPAR2022_CORE_non-redundant_v2.meme	MA1768.1	MYB30	BYHCCAACYACCAMC	15	1415	9.1e-003	CENTRIMO	 	 	http://jaspar2022.genereg.net/matrix/MA1768.1
+64	db/motif_databases/JASPAR/JASPAR2022_CORE_non-redundant_v2.meme	MA1933.1	ELK1::SREBF2	DCCGGAAGTSRCGTGA	16	421	9.5e-003	CENTRIMO	 	 	http://jaspar2022.genereg.net/matrix/MA1933.1
+65	db/motif_databases/JASPAR/JASPAR2022_CORE_non-redundant_v2.meme	MA0979.1	ERF008	CRCCGMCS	8	1627	1.2e-002	CENTRIMO	 	 	http://jaspar2022.genereg.net/matrix/MA0979.1
+66	db/motif_databases/JASPAR/JASPAR2022_CORE_non-redundant_v2.meme	MA1944.1	ETV5::DRGX	RSMGGAAGYAATTA	14	1294	1.5e-002	CENTRIMO	 	 	http://jaspar2022.genereg.net/matrix/MA1944.1
+67	db/motif_databases/MOUSE/uniprobe_mouse.meme	UP00015_1	Ehf_primary	VNNABCCGGAAGTDR	15	1972	1.5e-002	CENTRIMO	 	 	http://thebrain.bwh.harvard.edu/uniprobe/details2.php?id=00015
+68	db/motif_databases/JASPAR/JASPAR2022_CORE_non-redundant_v2.meme	MA0582.1	RAV1	VNGCAACAKAWD	12	1945	1.6e-002	CENTRIMO	 	 	http://jaspar2022.genereg.net/matrix/MA0582.1
+69	STREME	5-RTTDCGHAAY	STREME-5	RTTDCGHAAY	10	387	1.7e-002	STREME	db/motif_databases/JASPAR/JASPAR2022_CORE_non-redundant_v2.meme	MA0838.1 (CEBPG)	http://jaspar2022.genereg.net/matrix/MA0838.1
+70	db/motif_databases/JASPAR/JASPAR2022_CORE_non-redundant_v2.meme	MA1949.1	FLI1::DRGX	ACCGGAAGTAATTAT	15	1083	2.2e-002	CENTRIMO	 	 	http://jaspar2022.genereg.net/matrix/MA1949.1
+71	db/motif_databases/JASPAR/JASPAR2022_CORE_non-redundant_v2.meme	MA1971.1	ZBED2	NNMMCGAAACCNNV	14	1352	3.5e-002	CENTRIMO	 	 	http://jaspar2022.genereg.net/matrix/MA1971.1
+72	db/motif_databases/JASPAR/JASPAR2022_CORE_non-redundant_v2.meme	MA1554.1	RFX7	CGTTGCYAY	9	1786	3.9e-002	CENTRIMO	 	 	http://jaspar2022.genereg.net/matrix/MA1554.1
+
+# MEME-ChIP (Motif Analysis of Large Nucleotide Datasets): Version 5.5.5 released on Thu Sep 14 08:48:04 2023 +1000
+# The format of this file is described at https://meme-suite.org/meme//doc/meme-chip-output-format.html
+# meme-chip -oc . -time 240 -ccut 100 -fdesc description -dna -order 2 -minw 6 -maxw 15 -db db/motif_databases/MOUSE/uniprobe_mouse.meme -db db/motif_databases/JASPAR/JASPAR2022_CORE_non-redundant_v2.meme -meme-mod zoops -meme-nmotifs 3 -meme-searchsize 100000 -streme-pvt 0.05 -streme-align center -streme-totallength 4000000 -centrimo-score 5.0 -centrimo-ethresh 10.0 RUNX1_minusDox_ChIPseq_filtered_Distal.bed.fa
