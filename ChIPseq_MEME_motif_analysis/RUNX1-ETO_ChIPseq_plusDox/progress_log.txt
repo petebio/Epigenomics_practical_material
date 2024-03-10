@@ -1,0 +1,102 @@
+Invoking:
+  getsize ./RUNX1-ETO_plusDox_ChIPseq_filtered_Distal.bed.fa 1> $metrics
+Finished invoke:
+  name: count_seqs  status: 0  time: 0.017465
+Invoking:
+  fasta-most -min 50 < ./RUNX1-ETO_plusDox_ChIPseq_filtered_Distal.bed.fa 1> $metrics
+Finished invoke:
+  name: most_seqs  status: 0  time: 0.042008
+Invoking:
+  fasta-center -dna -len 100 < ./RUNX1-ETO_plusDox_ChIPseq_filtered_Distal.bed.fa 1> ./seqs-centered
+Finished invoke:
+  name: center_seqs  status: 0  time: 0.073106
+Invoking:
+  fasta-get-markov -nostatus -nosummary -dna -m 2 ./RUNX1-ETO_plusDox_ChIPseq_filtered_Distal.bed.fa ./background
+Finished invoke:
+  name: bg  status: 0  time: 0.012443
+Invoking:
+  meme ./seqs-centered -oc meme_out -mod zoops -nmotifs 3 -minw 6 -maxw 15 -bfile ./background -dna -seed 0 -searchsize 100000 -time 2919 -revcomp -nostatus
+Finished invoke:
+  name: meme  status: 0  time: 967.54462
+Invoking:
+  streme --verbosity 1 --oc streme_out -dna --seed 0 --p ./seqs-centered --minw 6 --maxw 15 --time 5780 --order 2 --thresh 0.05 --align center --totallength 4000000
+Finished invoke:
+  name: streme  status: 0  time: 122.328269
+Invoking:
+  centrimo -seqlen 200 -verbosity 1 -oc centrimo_out -bfile ./background -score 5.0 -ethresh 10.0 ./RUNX1-ETO_plusDox_ChIPseq_filtered_Distal.bed.fa meme_out/meme.xml streme_out/streme.xml db/motif_databases/MOUSE/uniprobe_mouse.meme db/motif_databases/JASPAR/JASPAR2022_CORE_non-redundant_v2.meme
+Finished invoke:
+  name: centrimo  status: 0  time: 50.223174
+Invoking:
+  tomtom -verbosity 1 -oc meme_tomtom_out -min-overlap 5 -dist pearson -evalue -thresh 1 -no-ssc meme_out/meme.xml db/motif_databases/MOUSE/uniprobe_mouse.meme db/motif_databases/JASPAR/JASPAR2022_CORE_non-redundant_v2.meme
+Finished invoke:
+  name: meme_tomtom  status: 0  time: 9.914838
+Invoking:
+  tomtom -verbosity 1 -oc streme_tomtom_out -min-overlap 5 -dist pearson -evalue -thresh 1 -no-ssc streme_out/streme.xml db/motif_databases/MOUSE/uniprobe_mouse.meme db/motif_databases/JASPAR/JASPAR2022_CORE_non-redundant_v2.meme
+Finished invoke:
+  name: streme_tomtom  status: 0  time: 33.507986
+Invoking:
+  tomtom -verbosity 1 -text -thresh 0.1 ./combined.meme ./combined.meme 1> ./motif_alignment.txt
+Finished invoke:
+  name: align  status: 0  time: 8.092291
+Invoking:
+  spamo -verbosity 1 -oc spamo_out_1 -bgfile ./background -keepprimary -primary GCGCCCYCTGSTGGC ./RUNX1-ETO_plusDox_ChIPseq_filtered_Distal.bed.fa meme_out/meme.xml meme_out/meme.xml streme_out/streme.xml
+Finished invoke:
+  name: spamo1  status: 0  time: 0.0484
+Invoking:
+  spamo -verbosity 1 -oc spamo_out_2 -bgfile ./background -keepprimary -primary CCACTTCCTSYYBYB ./RUNX1-ETO_plusDox_ChIPseq_filtered_Distal.bed.fa meme_out/meme.xml meme_out/meme.xml streme_out/streme.xml
+Finished invoke:
+  name: spamo2  status: 0  time: 0.048926
+Invoking:
+  spamo -verbosity 1 -oc spamo_out_3 -bgfile ./background -keepprimary -primary 1-WRACCACAR ./RUNX1-ETO_plusDox_ChIPseq_filtered_Distal.bed.fa streme_out/streme.xml meme_out/meme.xml streme_out/streme.xml
+Finished invoke:
+  name: spamo3  status: 0  time: 0.048145
+Invoking:
+  spamo -verbosity 1 -oc spamo_out_4 -bgfile ./background -keepprimary -primary 6-GCCGCAGCCTC ./RUNX1-ETO_plusDox_ChIPseq_filtered_Distal.bed.fa streme_out/streme.xml meme_out/meme.xml streme_out/streme.xml
+Finished invoke:
+  name: spamo4  status: 0  time: 0.046713
+Invoking:
+  spamo -verbosity 1 -oc spamo_out_5 -bgfile ./background -keepprimary -primary 4-CTGASTCACYS ./RUNX1-ETO_plusDox_ChIPseq_filtered_Distal.bed.fa streme_out/streme.xml meme_out/meme.xml streme_out/streme.xml
+Finished invoke:
+  name: spamo5  status: 0  time: 0.045486
+Invoking:
+  spamo -verbosity 1 -oc spamo_out_6 -bgfile ./background -keepprimary -primary 5-RGCCCCGCCCC ./RUNX1-ETO_plusDox_ChIPseq_filtered_Distal.bed.fa streme_out/streme.xml meme_out/meme.xml streme_out/streme.xml
+Finished invoke:
+  name: spamo6  status: 0  time: 0.046132
+Invoking:
+  spamo -verbosity 1 -oc spamo_out_7 -bgfile ./background -keepprimary -primary 16-GCCCCRCCTCCCGS ./RUNX1-ETO_plusDox_ChIPseq_filtered_Distal.bed.fa streme_out/streme.xml meme_out/meme.xml streme_out/streme.xml
+Finished invoke:
+  name: spamo7  status: 0  time: 0.047752
+Invoking:
+  fimo --verbosity 1 --oc fimo_out_1 --bgfile ./background --motif GCGCCCYCTGSTGGC meme_out/meme.xml ./RUNX1-ETO_plusDox_ChIPseq_filtered_Distal.bed.fa
+Finished invoke:
+  name: fimo1  status: 0  time: 0.577614
+Invoking:
+  fimo --verbosity 1 --oc fimo_out_2 --bgfile ./background --motif CCACTTCCTSYYBYB meme_out/meme.xml ./RUNX1-ETO_plusDox_ChIPseq_filtered_Distal.bed.fa
+Finished invoke:
+  name: fimo2  status: 0  time: 0.587653
+Invoking:
+  fimo --verbosity 1 --oc fimo_out_3 --bgfile ./background --motif 1-WRACCACAR streme_out/streme.xml ./RUNX1-ETO_plusDox_ChIPseq_filtered_Distal.bed.fa
+Finished invoke:
+  name: fimo3  status: 0  time: 0.578445
+Invoking:
+  fimo --verbosity 1 --oc fimo_out_4 --bgfile ./background --motif 6-GCCGCAGCCTC streme_out/streme.xml ./RUNX1-ETO_plusDox_ChIPseq_filtered_Distal.bed.fa
+Finished invoke:
+  name: fimo4  status: 0  time: 0.583602
+Invoking:
+  fimo --verbosity 1 --oc fimo_out_5 --bgfile ./background --motif 4-CTGASTCACYS streme_out/streme.xml ./RUNX1-ETO_plusDox_ChIPseq_filtered_Distal.bed.fa
+Finished invoke:
+  name: fimo5  status: 0  time: 0.576773
+Invoking:
+  fimo --verbosity 1 --oc fimo_out_6 --bgfile ./background --motif 5-RGCCCCGCCCC streme_out/streme.xml ./RUNX1-ETO_plusDox_ChIPseq_filtered_Distal.bed.fa
+Finished invoke:
+  name: fimo6  status: 0  time: 0.577308
+Invoking:
+  fimo --verbosity 1 --oc fimo_out_7 --bgfile ./background --motif 16-GCCCCRCCTCCCGS streme_out/streme.xml ./RUNX1-ETO_plusDox_ChIPseq_filtered_Distal.bed.fa
+Finished invoke:
+  name: fimo7  status: 0  time: 0.574791
+Writing output
+Invoking:
+  meme-chip_html_to_tsv ./meme-chip.html ./summary.tsv "meme-chip -oc . -time 240 -ccut 100 -fdesc description -dna -order 2 -minw 6 -maxw 15 -db db/motif_databases/MOUSE/uniprobe_mouse.meme -db db/motif_databases/JASPAR/JASPAR2022_CORE_non-redundant_v2.meme -meme-mod zoops -meme-nmotifs 3 -meme-searchsize 100000 -streme-pvt 0.05 -streme-align center -streme-totallength 4000000 -centrimo-score 5.0 -centrimo-ethresh 10.0 RUNX1-ETO_plusDox_ChIPseq_filtered_Distal.bed.fa" 5.5.5 "Thu Sep 14 08\:48\:04 2023 +1000"
+Finished invoke:
+  name: summary  status: 0  time: 0.243744
+Done
