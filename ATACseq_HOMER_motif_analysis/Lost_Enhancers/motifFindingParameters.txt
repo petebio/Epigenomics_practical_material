@@ -1,1 +1,0 @@
-cmd = ATACseq_peaks_Lost_Enhancers.bed hg38 Lost_Enhancers -size 200 -noknown -p 2
